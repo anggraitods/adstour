@@ -1,0 +1,486 @@
+body {
+  background-color: #fff;
+  font-family: 'Assistant', sans-serif;
+  color: #071C4D;
+}
+
+/* css untuk navbar */
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #071C4D;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #071C4D !important;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 70px;
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: #082250;
+  color: #ffffff;
+}
+
+.btn-login:hover {
+  background-color: #356AC8;
+  color: #ffffff;
+}
+
+/* css untuk header */
+header {
+  padding: 180px 0 172px;
+  margin-top: -70px;
+  background-image: url("../images/header/header.jpg");
+  background-size: cover;
+  /* css untuk button mulai */
+}
+
+header h1, header p {
+  color: #fff;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+header p {
+  font-size: 22px;
+  font-family: 'Assistant', sans-serif;
+}
+
+header .btn-get-started {
+  background-color: #FE611B;
+  color: #fff;
+}
+
+header .btn-get-started:hover {
+  background-color: #F98855;
+  color: #fff;
+}
+
+/* css untuk kelas main utama 4 kolom */
+.section-stats {
+  margin-top: -50px;
+}
+
+.section-stats .stats-detail {
+  padding-top: 16px;
+  background-color: #fff;
+  padding-left: 65px;
+}
+
+.section-stats h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.section-stats p {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+/* CSS untuk foto popular */
+.section-popular {
+  min-height: 540px;
+  background-color: #051334;
+  margin-top: -50px;
+  margin-bottom: -230px;
+}
+
+.section-popular .section-popular-heading {
+  margin-top: 150px;
+}
+
+.section-popular .section-popular-heading h2, .section-popular .section-popular-heading p {
+  color: #fff;
+}
+
+.section-popular .section-popular-heading h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.section-popular .section-popular-heading p {
+  font-size: 18px;
+  font-family: 'Assistant', sans-serif;
+}
+
+/* script diluar css popular untuk content */
+.section-popular-content .section-popular-travel .card-travel {
+  min-height: 380px;
+  background-color: #A5A5A5;
+  color: #fff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-popular-content .section-popular-travel .travel-country {
+  font-size: 18px;
+  font-family: 'Assistant', sans-serif;
+  color: #000;
+  font-weight: bold;
+}
+
+.section-popular-content .section-popular-travel .travel-location {
+  font-size: 20px;
+  font-family: 'Assistant', sans-serif;
+  color: #000;
+  font-weight: bold;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-explorer {
+  background-color: #FE611B;
+  color: #fff;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-explorer:hover {
+  background-color: #FE8C59;
+  color: #fff;
+}
+
+/* CSS untuk bagian jaringan dan logonya */
+.section-jaringan {
+  background-color: #fff;
+  margin-top: -170px;
+  padding-top: 240px;
+  padding-bottom: 50px;
+}
+
+.section-jaringan h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-jaringan p {
+  font-family: 'Assistant', serif;
+  font-size: 18px;
+}
+
+.section-jaringan img {
+  max-width: 100%;
+}
+
+/* CSS untuk testimonial */
+.section-testimonial-heading {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f7f9ff));
+  background: linear-gradient(#fff 0%, #f7f9ff 100%);
+  padding-top: 50px;
+  min-height: 506px;
+}
+
+.section-testimonial-heading h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-testimonial-heading p {
+  font-family: 'Assistant', serif;
+  font-size: 18px;
+}
+
+/* CSS untuk testimonial content */
+.section-testimonial-content {
+  margin-top: -300px;
+  padding-bottom: 50px;
+  /* CSS tombol bantuan */
+  /* CSS tombol mulai */
+}
+
+.section-testimonial-content .card-testimonial {
+  padding: 40px 20px 10px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+}
+
+.section-testimonial-content .card-testimonial .testimonial-content {
+  min-height: 380px;
+}
+
+.section-testimonial-content .card-testimonial h3 {
+  font-size: 22px;
+  font-family: "Assistant", serif;
+  font-weight: 400;
+}
+
+.section-testimonial-content .card-testimonial .testimonial {
+  font-family: Assistant;
+  font-weight: 200;
+  font-size: 26px;
+  text-align: center;
+  color: #6e6e6e;
+}
+
+.section-testimonial-content .card-testimonial .trip-to {
+  font-weight: normal;
+  font-size: 20px;
+  color: #6e6e6e;
+}
+
+.section-testimonial-content .card-testimonial hr {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.section-testimonial-content .btn-butuh-bantuan {
+  background-color: #F2F2F2;
+  color: #9D9D9D;
+}
+
+.section-testimonial-content .btn-butuh-bantuan:hover {
+  background-color: #FCFCFC;
+  color: #9D9D9D;
+}
+
+.section-testimonial-content .btn-mulai {
+  background-color: #FE611B;
+  color: #fff;
+}
+
+.section-testimonial-content .btn-mulai:hover {
+  background-color: #F98855;
+  color: #fff;
+}
+
+.section-footer a {
+  color: #042A6B;
+}
+
+.section-details-header {
+  min-height: 310px;
+  background: #E4E6EB;
+  margin-top: -70px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+}
+
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #071C4D;
+}
+
+.section-details-content .card-details {
+  padding: 30px;
+  border-radius: 11px;
+}
+
+.section-details-content .card-details h1 {
+  font-size: 26px;
+}
+
+.section-details-content .card-details h2 {
+  font-size: 20px;
+}
+
+.section-details-content .card-details p {
+  font-size: 18px;
+  color: #ABABAB;
+}
+
+.section-details-content .card-details h3 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #071c4d;
+}
+
+.section-details-content .card-details .informasi-perjalanan th {
+  font-weight: 300;
+  font-size: 18px;
+  color: #071C4D;
+}
+
+.section-details-content .card-details .informasi-perjalanan td {
+  font-weight: 300;
+  font-size: 18px;
+  color: #ABABAB;
+}
+
+.section-details-content .card-details .informasi-perjalanan .text-blue {
+  color: #071C4D;
+  font-weight: bold;
+}
+
+.section-details-content .card-details .informasi-perjalanan .text-orange {
+  color: #FE611B;
+  font-weight: bold;
+}
+
+.section-details-content .card-details .instruksi-bayar {
+  font-weight: 300;
+  font-size: 14px;
+  color: #ABABAB;
+}
+
+.section-details-content .card-details .bank .bank-item h3 {
+  font-size: 18px;
+  color: #071C4D;
+  margin-bottom: 0;
+}
+
+.section-details-content .card-details .bank .bank-item p {
+  margin-bottom: 0;
+}
+
+.section-details-content .card-details .bank .bank-item .penjelasan {
+  margin-left: 20px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .card-details .bank .bank-item .penjelasan p {
+  font-weight: normal;
+  font-size: 16px;
+  color: #071c4d;
+}
+
+.section-details-content .card-details .bank .bank-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.section-details-content .card-details .disclaimer {
+  font-weight: 300;
+  font-size: 14px;
+  color: #ABABAB;
+}
+
+.section-details-content .card-details .gj-datepicker .datepicker {
+  border-right: 0;
+}
+
+.section-details-content .card-details .gj-datepicker .input-group-append .btn {
+  padding-right: 30px;
+}
+
+.section-details-content .card-details .btn-add-now {
+  background-color: #071C4D;
+  color: #fff;
+}
+
+.section-details-content .card-details .btn-add-now:hover {
+  background-color: #25499E;
+  color: #fff;
+}
+
+.section-details-content .card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
+  padding: 20px;
+}
+
+.section-details-content .features {
+  margin-top: 20px;
+}
+
+.section-details-content .features h3 {
+  font-size: 18px;
+  color: #071C4D;
+  margin-bottom: 0;
+}
+
+.section-details-content .features p {
+  margin-bottom: 0;
+}
+
+.section-details-content .features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .features .features-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.section-details-content .gallery .xzoom-container {
+  display: block;
+}
+
+.section-details-content .gallery .xzoom-container .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.section-details-content .gallery .xzoom-container .xactive {
+  border: 4px solid #1ABC9C;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.section-details-content .member .member-image {
+  width: 40px;
+  height: 40px;
+}
+
+.section-details-content .join-container {
+  margin-top: -16px;
+}
+
+.section-details-content .btn-join-now {
+  background-color: #FE611B;
+  color: #fff;
+  border-radius: 0;
+}
+
+.section-details-content .btn-join-now:hover {
+  background-color: #F8966B;
+  color: #fff;
+}
+
+.section-success {
+  height: 90vh;
+}
+
+.section-success h1 {
+  font-weight: 600px;
+  font-size: 26px;
+  color: #071C4D;
+}
+
+.section-success p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #A5A5A5;
+}
+
+.section-success .btn-home-page {
+  border-radius: 4px;
+  background-color: #071C4D;
+  color: #fff;
+}
+
+.section-success .btn-home-page:hover {
+  color: #fff;
+  background-color: #274EAA;
+}
+/*# sourceMappingURL=main.css.map */
